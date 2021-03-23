@@ -1,0 +1,12 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "", 
+  "main": "index.js",
+  "scripts": {
+    "tsc": "rm -rf build/ && tsc",
+    "tsc:watch": "rm -rf build/ && tsc -w"  
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\zanti\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js tsc:watch
+
+PATH: 
+  C:\Program Files\AdoptOpenJDK\jdk-15.0.2.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\laragon\bin\php\php-7.4.12-Win32-vc15-x64;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Go\bin;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\laragon\bin;C:\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;C:\laragon\bin\composer;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.24-winx64\bin;C:\laragon\bin\nginx\nginx-1.16.0;C:\laragon\bin\ngrok;C:\laragon\bin\nodejs\node-v12;C:\laragon\bin\notepad++;C:\laragon\bin\putty;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\telnet;C:\laragon\usr\bin;C:\Users\zanti\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\zanti\AppData\Roaming\Composer\vendor\bin;C:\Users\zanti\AppData\Roaming\npm;C:\Users\zanti\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\zanti\AppData\Local\Programs\Python\Python39\;C:\Users\zanti\AppData\Local\Microsoft\WindowsApps;C:\Users\zanti\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\zanti\go\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.2.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\zanti\OneDrive\Dokumen\learningProgramLeanguage\TypeScript\package.json: Unexpected token / in JSON at position 205
+      at JSON.parse (<anonymous>)
+      at C:\Users\zanti\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\zanti\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\zanti\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "typescript",
+    "version": "1.0.0",
+    "description": "", 
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "tsc": "rm -rf build/ && tsc",
+      // "tsc:watch": "rm -rf build/ && tsc -w"
+      "tsc:watch": "tsc -w"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
