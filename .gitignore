@@ -1,2 +1,2 @@
-/build
-/build/module/
+/build/*.js
+/build/module/*.js
